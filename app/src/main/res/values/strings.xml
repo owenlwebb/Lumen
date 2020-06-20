@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Lumen</string>
+    <string name="author">Owen Webb</string>
+    <string name="tab_text_1">Colors</string>
+    <string name="tab_text_2">Brightness</string>
+    <string name="tab_text_3">Patterns</string>
+    <string name="tab_text_4">Advanced</string>
+
+    <string name="BLUE">BLUE</string>
+    <string name="RED">RED</string>
+    <string name="GREEN">GREEN</string>
+    <string name="YELLOW">YELLOW</string>
+    <string name="NATURAL">NATURAL</string>
+    <string name="ORANGE">ORANGE</string>
+    <string name="PURPLE">PURPLE</string>
+    <string name="WHITE">WHITE</string>
+    <string name="TEAL">TEAL</string>
+    <string name="PINK">PINK</string>
+    <string name="CUSTOM">CUSTOM</string>
+
+    <string name="status_text">%d%%</string>
+</resources>

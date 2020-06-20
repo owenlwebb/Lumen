@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/color_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".ui.main.ColorTabFragment">
+
+    <TableRow
+        android:id="@+id/Red-Green"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/red"
+            style="@style/ColorChoice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#F44336"
+            android:text="@string/RED"
+            android:textColor="#970000"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/green"
+            style="@style/ColorChoice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#4CAF50"
+            android:text="@string/GREEN"
+            android:textColor="#006A2C"
+            android:textSize="36sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Blue-Yellow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/blue"
+            style="@style/ColorChoice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#3F51B5"
+            android:text="@string/BLUE"
+            android:textColor="#172781"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/yellow"
+            style="@style/ColorChoice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#FFEB3B"
+            android:text="@string/YELLOW"
+            android:textColor="#9F8600"
+            android:textSize="36sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Orange-Purple"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/orange"
+            style="@style/ColorChoice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#FFAB00"
+            android:text="@string/ORANGE"
+            android:textColor="#916100"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/purple"
+            style="@style/ColorChoice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#AA00FF"
+            android:text="@string/PURPLE"
+            android:textColor="#560081"
+            android:textSize="36sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Natural-White"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/natural"
+            style="@style/ColorChoice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#FBFFC0"
+            android:text="@string/NATURAL"
+            android:textColor="#837F75"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/white"
+            style="@style/ColorChoice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:text="@string/WHITE"
+            android:textColor="#686868"
+            android:textSize="36sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Teal-Pink"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/teal"
+            style="@style/ColorChoice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#00B8D4"
+            android:text="@string/TEAL"
+            android:textColor="#006575"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/pink"
+            style="@style/ColorChoice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#E63D89"
+            android:text="@string/PINK"
+            android:textColor="#7A2C4F"
+            android:textSize="36sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <SeekBar
+            android:id="@+id/brightness_bar"
+            style="@style/Widget.AppCompat.SeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/status_text"
+            android:layout_width="70sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:text="@string/status_text"
+            android:textColor="#DCDCDC"
+            android:textSize="18sp" />
+
+        <Switch
+            android:id="@+id/on_switch"
+            android:layout_width="70sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="14sp"
+            android:paddingRight="14sp" />
+
+    </TableRow>
+
+</TableLayout>
